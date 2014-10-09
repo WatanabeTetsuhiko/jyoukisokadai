@@ -1,0 +1,33 @@
+var tasizann=function(a,b){
+  var result1;
+  result1=a+b;
+  return result1;
+}
+
+tasizann(5,8);
+
+
+
+
+var kakezann=function(c,d){
+  var result2;
+  result2=c*d;
+  return result2;
+}
+
+kakezann(18,3);
+
+
+
+
+var keisann=function(x){
+  var result3,tmp;
+  tmp=kakezann(2,x);
+  result3=tasizann(tmp,10);
+  return result3;
+}
+
+
+keisann(7);
+keisann(76);
+keisann(0.57);
